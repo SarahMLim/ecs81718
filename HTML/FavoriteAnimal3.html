@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sarah Lim</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .image-fix {
+            width: 400px;
+        }
+        
+        .image-fix-2 {
+            width: 1000px;
+        }
+
+        .font-fix {
+            font-size: 20px;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .center-align {
+            text-align: center;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .border-for-images {
+            border-width: 7px;
+            border-style: solid;
+            border-radius: 50%;
+        }
+
+        body {
+            font-family: 'Oxygen';
+            position: relative;
+        }
+
+        .nav li {
+            float: left;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+
+<body class="bg-info center-align" data-spy="scroll" data-target="#scrollspy">
+    <div>
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top" id="scrollspy">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#buttons">Buttons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jumbotron">Jumbotron</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#navbar-2">Navigation Bar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapse-paragraph">Collapsable div tag</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                    Trumbnails and Carousel
+                </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#thumbnail-images">Part 1: Thumbnails</a>
+                        <a class="dropdown-item" href="#carousel">Part 2: Carousel</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <div class="col text-light" id="buttons">
+            <br> <br> <br>
+            <ul class="breadcrumb bg-secondary">
+                <li class="breadcrumb-item">
+                    <a class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This website contains several facts about elephants such as their eating habits, threats, and history. Overall, this website helps people get a better understanding of elephants." href="https://defenders.org/elephant/basic-facts" target="_blank">
+                        Elephant Facts
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This website informs readers about the reasons why elephants are declining, such as deforistation and poaching. It also contains statistics of the number of elephants in the past versus recently in order to convey the severity of these threats to elephants." href="https://www.theguardian.com/environment/2016/aug/12/elephants-on-the-path-to-extinction-the-facts" target="_blank">
+                        Elephant Downfall
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This websites contains information about what people can do to help prevent elephants from going extinct and increase their numbers. It also decribes what the African Wildlife Foundation (AWF) is doing to help elephants. This website also briefly covers the threats to elephants in order for readers to know that they should stop these threats in an effort to protect elephants." href="http://www.awf.org/wildlife-conservation/elephant" target="_blank">
+                        Elephant Conservation
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="jumbotron bg-info" id="jumbotron">
+            <div class="container-fluid">
+                <h1 class="text-primary">Elephant</h1>
+                <h1 class="text-secondary">Loxodonta</h1>
+            </div>
+        </div>
+    </div>
+    <div id="navbar-2">
+        <nav class="navbar navbar-expand-xl bg-secondary">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://sarahmlim.github.io/ecs81718/HTML/Practice1.html" target="_blank">Practice1.html</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://sarahmlim.github.io/ecs81718/HTML/Tables1.html" target="_blank">Tables1.html</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="https://sarahmlim.github.io/ecs81718/HTML/FavoriteAnimal.html" target="_blank">FavoriteAnimal.html</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="text-light" id="collapse-paragraph">
+        <br> <br>
+        <a href="#description" class="btn btn-primary" data-toggle="collapse">Collapse</a>
+        <div id="description" class="collapse">
+            <div class="row">
+                <div class="col-xl-2"></div>
+                <div class="col">
+                    <br> 
+                    Elephants are some of the largest creatures in the world. They can live for 50 - 70 years. They are also known to be extremely intelligent. For the most part elephants are gentle animals but they will attack if they feel themselves or their offspring are in danger. Elephants eat grass, small plants, bushes, fruit, twigs, tree bark, and roots.
+                </div>
+                <div class="col-xl-2"></div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div class="row text-light font-fix" id="thumbnail-images">
+        <div class="col-xl-4 bg-danger img-thumbnail">
+            <img style="border-color: #9bf1fa;" class="image-fix border-for-images" src="http://assets.worldwildlife.org/photos/11552/images/story_full_width/rsz_namibia_will_burrard_lucas_wwf_us_1.jpg?1462219623" a="Picture of an elephant.">
+            <hr>
+            <p>This image comes from a photo taken of an elephant. Elephants are large but friendly and kind creatures! </p>
+        </div>
+        <div class="col-xl-4 bg-success img-thumbnail">
+            <br> <br>
+            <img style="border-color: #faddf7;" class="image-fix border-for-images" src="https://photos.smugmug.com/Naturephotographs/Africa/i-77R8wFr/0/26886a64/L/Baby%20Elephant%20holding%20adult%20tail-L.jpg" a="Picture of an elephant holding its mom's tail.">
+            <hr>
+            <p>This image is from a photo taken of a baby elephant holding its mom's tail. Elephants do this for protection. It also helps keep the elephants organized and ensures a baby elephant doens't wander off.</p>
+        </div>
+        <div class="col-xl-4 bg-warning img-thumbnail">
+            <br> <br>
+            <img style="border-color: #a4a7f9;" class="image-fix border-for-images" src="https://upload.wikimedia.org/wikipedia/commons/6/63/African_elephant_warning_raised_trunk.jpg" a="Picture of an elephant's tusks.">
+            <hr>
+            <p>This image comes from a photo taken of an elephant's tusks. Unfortunately, elephants are close to being extinct because they are hunted for their ivory tusks.</p>
+        </div>
+    </div>
+    <br> <br>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="image-fix-2" src="http://ak-hdl.buzzfed.com/static/2014-06/18/9/enhanced/webdr08/original-21664-1403098154-16.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="image-fix-2" src="http://2.bp.blogspot.com/-XV7elbjdpyw/T2znUYd-HTI/AAAAAAAAFeU/IIddlm0okMk/s1600/article-2115392-122E7F79000005DC-12_634x485.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="image-fix-2" src="http://elephantencyclopedia.weebly.com/uploads/1/9/4/9/19498203/5282840.jpg?780">
+            </div>
+            <div class="carousel-item">
+                <img class="image-fix-2" src="https://media.mnn.com/assets/images/2014/09/elephant-painting.jpg">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</body>
+
+</html>
