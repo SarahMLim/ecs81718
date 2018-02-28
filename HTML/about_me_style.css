@@ -1,0 +1,52 @@
+.nav_bar{
+    list-style-type: none;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.dark_blue{
+    color: #002868;
+}
+
+.border{
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px;
+}
+.current_tab{
+    background-color: #5dd869;
+    color: #002868;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+a:hover {
+    background-color: #FFFFFF;
+    color: #00000;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #a0f8ff;
+}
+hr{
+    border-style: solid;
+}
+p, h1, h2{
+    font-family: arial;
+}
+#funfactlist{
+    font-family: arial;
+    color: #002868;
+}
+#headerhr{
+    color: #5dd869;
+}
