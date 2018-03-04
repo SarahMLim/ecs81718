@@ -1,0 +1,138 @@
+header,
+footer {
+    padding: 1em;
+    color: #16BAC5;
+    background-color: #171D1C;
+    clear: left;
+    text-align: left;
+}
+
+body {
+    font-family: raleway;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(https://icdn8.themanual.com/image/themanual/pursuit-series-3750x2109.jpg);
+}
+td,
+th {
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5863F8;
+    border-collapse: collapse;
+    font-size: 1.1vw;
+}
+
+th {
+    text-align: center;
+    font-size: 1.2vw;
+    color: #16BAC5;
+    background-color: #171D1C;
+}
+
+p {
+    font-size: 1.1vw;
+    color: #171D1C;
+}
+
+.star {
+    width: 30px;
+    margin-top: 4px;
+}
+
+.page_section{
+    overflow: auto;
+}
+
+.small_image {
+    width: 25%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5863F8;
+    border-radius: 3px;
+}
+
+.medium_image {
+    width: 33%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5863F8;
+    border-radius: 3px;
+}
+
+.large_image {
+    width: 45%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5863F8;
+    border-radius: 3px;
+}
+
+.right_margin {
+    margin-right: 20px;
+}
+
+#container {
+    font-family: raleway;
+    overflow: auto;
+    background: linear-gradient(#609fff, #aaffff);
+    padding: 5px;
+}
+
+#welcome_paragraph {
+    font-family: raleway;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#game_list {
+    font-size: 1vw;
+}
+
+#quick_facts {
+    background-color: #fad9ff;
+    width: 33%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+
+#rating {
+    font-family: impact;
+    background-color: #3cb656;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #5863F8;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#testimonial{
+    font-family: cursive;
+    float: right;
+    font-size: 1.2vw;
+    clear: both;
+    margin-top: 20px;
+    width: 50%;
+}
+
+input.MyButton {
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #5863F8;
+    color: #fff;
+    border: 1px solid #3366cc;
+    border-radius: 10px;
+}
+
+input.MyButton:hover {
+    color: #16BAC5;
+    background-color: #171D1C;
+    border: 1px solid #fff;
+}
